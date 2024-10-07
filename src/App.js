@@ -1,9 +1,10 @@
 import './App.css';
+import ExpenseItem from './components/ExpenseItem';
 
 function App() {
   return (
     <div>
-      <h2>Hello World!</h2>
+      <ExpenseItem></ExpenseItem>
       <h5>Ville Niemi / VAMK / BIT</h5>
     </div>
   );
